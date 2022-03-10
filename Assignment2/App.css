@@ -1,0 +1,25 @@
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.title,h1{
+  color: aqua;
+}
+
+.profile-info,label{
+  font-size: 13px;
+  color: black;
+}
+
+label,strong{
+  display: block;
+}
+.profile-info{
+  margin: 10px;
+}
+
