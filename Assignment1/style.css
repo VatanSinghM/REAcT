@@ -30,3 +30,18 @@
     background-color: royalblue;
     height: 150px;
 }
+
+
+@media screen and (min-device-width:765px)  and (max-device-width:1065px){
+    .yellow .content{
+        flex:1 1 auto;
+    }
+    .red .content{
+        flex: 1 1 auto;
+    }
+    .blue .content{
+        flex-flow: column wrap !important;
+        
+    }
+    
+}
